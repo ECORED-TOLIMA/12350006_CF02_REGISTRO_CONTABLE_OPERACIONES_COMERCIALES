@@ -1,16 +1,21 @@
 export default {
   global: {
-    componenteFormativo: 'Nombre_del_recurso_educativo',
-    descripcionCurso: 'Descripción_del_RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    componenteFormativo: 'Registros contables y ciclo financiero básico',
+    descripcionCurso:
+      'Este componente formativo permite a los aprendices adquirir competencias para registrar y validar operaciones económicas mediante asientos contables, aplicando el principio de partida doble y la cuenta T. Aborda las etapas del ciclo contable, el uso de libros principales y auxiliares y la elaboración de estados financieros básicos, garantizando información contable confiable, trazable y útil para la toma de decisiones.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
       {
         clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1_1.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1_2.svg'),
       },
     ],
   },
@@ -30,28 +35,104 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Asientos contables',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo_de_segundo_nivel',
+            titulo: 'Principio de partida doble',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Representación en cuenta T',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Variables y elementos del asiento contable',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Asientos de ajuste',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Procedimiento para el registro de asientos contables',
+            hash: 't_1_5',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo:
+          'Etapas del ciclo contable y su relación con las operaciones financieras',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo:
+              'Importancia del registro contable en la gestión financiera',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Registro de compras, ventas, gastos, pagos e ingresos',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo:
+              'Relación entre el ciclo contable y la elaboración de informes financieros',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Libros contables',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Tipos de libros contables y sus componentes',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo:
+              'Normativa legal aplicable a los libros contables en Colombia',
+            hash: 't_3_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Estados financieros básicos y cierre contable',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Estado de situación financiera (Balance General)',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Estado de resultados (Pérdidas y ganancias)',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo:
+              'Relación entre los estados financieros y el ciclo contable',
+            hash: 't_4_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -101,28 +182,103 @@ export default {
   },
   complementario: [
     {
-      tema: 'Tema_complementario',
-      referencia: 'Referencia_complementario',
-      tipo: 'Tipo_complementario',
-      link: 'Link_complementario',
+      tema: 'Ciclo contable: guía completa para principiantes',
+      referencia:
+        'Canal Aprende Contabilidad. (2023). Ciclo contable paso a paso – guía completa. YouTube.',
+      tipo: 'Video educativo',
+      link: 'https://www.youtube.com/watch?v=ra7ag3GGxYM',
     },
     {
-      tema: 'Tema_complementario',
-      referencia: 'Referencia_complementario',
-      tipo: 'Tipo_complementario',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Ciclo contable explicado paso a paso',
+      referencia:
+        'Canal Contabilidad para Principiantes. (2023). Registros contables para principiantes: ciclo contable paso a paso. YouTube.',
+      tipo: 'Video educativo',
+      link: 'https://youtu.be/Nr2dkFpT6GE',
     },
   ],
   glosario: [
     {
-      termino: 'Termino_glosario',
-      significado: 'Significado_glosario',
+      termino: 'Ciclo contable',
+      significado:
+        'conjunto de etapas ordenadas que transforman las operaciones financieras en información contable útil, desde la identificación de documentos hasta la elaboración de estados financieros.',
+    },
+    {
+      termino: 'Libro diario',
+      significado:
+        'registro contable en el que se anotan de forma cronológica todas las transacciones realizadas por la empresa durante un periodo.',
+    },
+    {
+      termino: 'Libro mayor',
+      significado:
+        'registro contable donde se concentran los movimientos y saldos de cada cuenta individual provenientes del libro diario.',
+    },
+    {
+      termino: 'Balance de prueba',
+      significado:
+        'documento que resume los saldos de todas las cuentas del libro mayor para verificar que los débitos y créditos estén equilibrados.',
+    },
+    {
+      termino: 'Conciliación bancaria',
+      significado:
+        'proceso de comparación entre los registros contables de la cuenta bancos y el extracto emitido por la entidad financiera para identificar diferencias.',
+    },
+    {
+      termino: 'Estado de situación financiera',
+      significado:
+        'informe contable que presenta los activos, pasivos y patrimonio de una empresa en un momento determinado.',
+    },
+    {
+      termino: 'Estado de resultados',
+      significado:
+        'informe contable que muestra los ingresos, costos, gastos y la utilidad o pérdida generada durante un periodo.',
+    },
+    {
+      termino: 'Cierre contable',
+      significado:
+        'proceso mediante el cual se revisan y ajustan las cuentas al final de un periodo, dejando en ceros las cuentas de resultados y trasladando la utilidad o pérdida al patrimonio.',
     },
   ],
   referencias: [
     {
-      referencia: 'Nombre_referencias',
-      link: 'Link_referencias',
+      referencia:
+        'Burbano Ruiz, J. E. (2011). Presupuestos: Un enfoque estratégico, gestión y control de recursos (4.ª ed.). McGraw-Hill Latinoamericana.',
+      link: '',
+    },
+    {
+      referencia:
+        'Fierro, H. (2011). Contabilidad general: fundamentos y aplicaciones. Ecoe Ediciones.',
+      link: '',
+    },
+    {
+      referencia:
+        'González, J. (2021). Fundamentos de contabilidad financiera. Editorial Universidad Cooperativa de Colombia.',
+      link: '',
+    },
+    {
+      referencia:
+        'León García, M. (2009). Teoría contable y estados financieros. McGraw-Hill Interamericana.',
+      link: '',
+    },
+    {
+      referencia:
+        'Muñoz Maza, J. (2016). Contabilidad: teoría y práctica. Fondo Editorial Universidad EAFIT.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ortiz Anaya, A. (2018). Contabilidad financiera: una perspectiva práctica. Ediciones de la U.',
+      link: '',
+    },
+    {
+      referencia:
+        'Servicio Nacional de Aprendizaje SENA. (2023). Clasificación Nacional de Ocupaciones: Diccionario ocupacional e índice alfabético de denominaciones ocupacionales.',
+      link: 'https://observatorio.sena.edu.co/clasificacion/cno',
+    },
+    {
+      referencia:
+        'Servicio Nacional de Aprendizaje (SENA). (2015). Sistema Nacional de Formación para el Trabajo.',
+      link:
+        'https://competencias.sena.edu.co/page?3,plantilla,productos-aprobados,O,es,0',
     },
   ],
   creditos: [
@@ -131,7 +287,8 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del equipo',
+          cargo:
+            'Responsable Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Dirección General',
         },
         {
@@ -145,9 +302,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre_Experto',
-          cargo: 'Cargo_Experto',
-          centro: 'Regional_Experto',
+          nombre: 'Gustavo Ernesto Mariño Puentes',
+          cargo: 'Experto temático',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Evaluador instruccional ',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -155,17 +317,33 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre_Experto',
+          nombre: 'Lina Marcela Pérez Manchego',
           cargo: 'Diseñador web',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_Experto',
-          cargo: 'Desarrollador <em>full stack</em>',
+          nombre: 'Oscar Ivan Uribe Ortiz',
+          cargo: 'Diseñador web',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_Experto',
+          nombre: 'José Jaime Luis Tang Pinzón',
+          cargo: 'Diseñador web',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Diego Fernando Velasco Güiza',
+          cargo: 'Desarrollador <em>Full stack</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+
+        {
+          nombre: 'Veimar Celis Meléndez',
+          cargo: 'Desarrollador <em>Full stack</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Ernesto Navarro Jaimes',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
@@ -175,12 +353,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre_Experto',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          nombre: 'Norma Constanza Morales Cruz',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_Experto',
+          nombre: 'Javier Mauricio Oviedo',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
