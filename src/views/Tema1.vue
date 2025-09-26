@@ -7,10 +7,12 @@
         span 1
       h1 Asientos contables    
 
-    figure.mb-5(data-aos="zoom-in")
-      img(src='@/assets/curso/temas/tema1/img1.png', alt='Imagen decorativa')
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-12
+        figure.mb-5(data-aos="zoom-in")
+          img(src='@/assets/curso/temas/tema1/img1.png', alt='Imagen decorativa')
     
-    p Los asientos contables constituyen la #[b unidad básica del registro contable]. Cada uno representa una operación económica realizada por la empresa, traducida al lenguaje contable para reflejar su efecto sobre las cuentas de activo, pasivo, patrimonio, ingresos o gastos.
+    p.mb-5 Los asientos contables constituyen la #[b unidad básica del registro contable]. Cada uno representa una operación económica realizada por la empresa, traducida al lenguaje contable para reflejar su efecto sobre las cuentas de activo, pasivo, patrimonio, ingresos o gastos.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-5.col-8.mb-4(data-aos="fade-right")
         figure
