@@ -12,12 +12,12 @@
         figure.mb-5(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema1/img1.png', alt='Imagen decorativa')
     
-    p.mb-5 Los asientos contables constituyen la #[b unidad básica del registro contable]. Cada uno representa una operación económica realizada por la empresa, traducida al lenguaje contable para reflejar su efecto sobre las cuentas de activo, pasivo, patrimonio, ingresos o gastos.
+    p.mb-5(data-aos="fade-left") Los asientos contables constituyen la #[b unidad básica del registro contable]. Cada uno representa una operación económica realizada por la empresa, traducida al lenguaje contable para reflejar su efecto sobre las cuentas de activo, pasivo, patrimonio, ingresos o gastos.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-5.col-8.mb-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema1/img2.png', alt='Imagen decorativa')
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         .bloque-texto-c.color-primario.p-4.mb-4
           i.fas.fa-quote-left
           h4.mb-2 Un asiento contable es el vehículo que transforma los hechos económicos en información organizada, verificable y comparable
@@ -36,9 +36,9 @@
         figure
           img(src='@/assets/curso/temas/tema1/img3.svg', alt='Imagen decorativa')
       .col-lg-9
-        p El principio de partida doble es la #[b base del sistema contable moderno] y establece que #[b toda transacción debe registrarse afectando al menos dos cuentas, una en el debe (débito) y otra en el haber (crédito) por el mismo valor].
-        p Según Fierro Martínez (2011), “la partida doble garantiza que los recursos utilizados tengan un origen identificado, manteniendo la igualdad entre activos, pasivos y patrimonio” (p. 56).
-        p La siguiente tabla resume el efecto que producen los movimientos de débito y crédito sobre los principales tipos de cuentas del Plan Único de Cuentas (PUC), indicando también su saldo normal. Esta información permite identificar de manera clara cómo se comportan las cuentas en el proceso de registro contable.
+        p(data-aos="fade-left") El principio de partida doble es la #[b base del sistema contable moderno] y establece que #[b toda transacción debe registrarse afectando al menos dos cuentas, una en el debe (débito) y otra en el haber (crédito) por el mismo valor].
+        p(data-aos="fade-left") Según Fierro Martínez (2011), “la partida doble garantiza que los recursos utilizados tengan un origen identificado, manteniendo la igualdad entre activos, pasivos y patrimonio” (p. 56).
+        p(data-aos="fade-left") La siguiente tabla resume el efecto que producen los movimientos de débito y crédito sobre los principales tipos de cuentas del Plan Único de Cuentas (PUC), indicando también su saldo normal. Esta información permite identificar de manera clara cómo se comportan las cuentas en el proceso de registro contable.
     .titulo-sexto.color-acento-contenido.offset-1(data-aos="fade-left")
       h5 Tabla 1.
       i Efecto de los débitos y créditos según el tipo de cuenta
@@ -47,39 +47,39 @@
         .tabla-a.color-acento-contenido.mb-5
           table(alt="Texto alternativo tabla")
             thead
-              tr
+              tr(data-aos="fade-left")
                 th Tipo de cuenta
                 th Aumenta con
                 th Disminuye con
                 th Naturaleza
             tbody
-              tr
+              tr(data-aos="fade-left")
                 td Activos
                 td Débito
                 td Crédito
                 td Deudora
-              tr
+              tr(data-aos="fade-left")
                 td Pasivos
                 td Crédito
                 td Débito
                 td Acreedora
-              tr
+              tr(data-aos="fade-left")
                 td Patrimonio
                 td Crédito
                 td Débito
                 td Acreedora
-              tr
+              tr(data-aos="fade-left")
                 td Ingresos
                 td Crédito
                 td Débito
                 td Acreedora
-              tr
+              tr(data-aos="fade-left")
                 td Gastos y costos
                 td Débito
                 td Crédito
                 td Deudora
-    p Este principio asegura que el sistema contable #[b permanezca en equilibrio matemático], pues la suma de todos los débitos siempre será igual a la suma de todos los créditos.
-    p Así, la partida doble permite comprender de dónde provienen los recursos (créditos) y en qué se utilizan (débitos), creando un registro coherente y verificable.
+    p(data-aos="fade-left") Este principio asegura que el sistema contable #[b permanezca en equilibrio matemático], pues la suma de todos los débitos siempre será igual a la suma de todos los créditos.
+    p(data-aos="fade-left") Así, la partida doble permite comprender de dónde provienen los recursos (créditos) y en qué se utilizan (débitos), creando un registro coherente y verificable.
 
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
@@ -93,11 +93,11 @@
           h4.mb-2 La cuenta T permite aislar gráficamente los movimientos de débito y crédito para comprender la dinámica de cada cuenta
           span - León García (2009) (p. 45)
           i.fas.fa-quote-right
-      .col-lg-5.order-1.order-lg-2.mb-4(data-aos="fade-left")
+      .col-lg-5.col-8.order-1.order-lg-2.mb-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema1/img4.png', alt='Imagen decorativa')
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
+      .col-lg-10(data-aos="fade-left")
         p.mb-4 La siguiente figura muestra la estructura básica de una cuenta T, con sus elementos principales organizados de forma clara.
         .titulo-sexto.color-acento-contenido.offset-0(data-aos="fade-left")
           h5 Figura 1.
@@ -112,7 +112,7 @@
       .col-lg-5.col-8.mb-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema1/img6.png', alt='Imagen decorativa')
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         .titulo.mb-5(data-aos="fade-left")
           h5.mb-0 Ejemplo práctico
         p Compra de mercancías en efectivo por $ 1.000.000
@@ -124,21 +124,21 @@
                 th Débito
                 th Crédito
             tbody
-              tr
+              tr(data-aos="fade-left")
                 td Inventarios
                 td $ 1.000.000
                 td
-              tr
+              tr(data-aos="fade-left")
                 td Caja
                 td
                 td $ 1.000.000
-        p Comprender la cuenta T permite #[b anticipar el efecto de cada operación en el saldo de las cuentas] y aplicar correctamente el principio de partida doble.
+        p(data-aos="fade-left") Comprender la cuenta T permite #[b anticipar el efecto de cada operación en el saldo de las cuentas] y aplicar correctamente el principio de partida doble.
     separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.3	Variables y elementos del asiento contable
-    p Cada asiento contable debe incluir una serie de elementos que garanticen su #[b validez legal, trazabilidad y confiabilidad técnica].
-    p Según Ortiz Anaya (2018), “un registro sin soporte completo carece de valor probatorio y compromete la confiabilidad de toda la información contable” (p. 31).
-    p.mb-4 A continuación se presentan los elementos mínimos de un asiento contable en el libro diario:
+    p(data-aos="fade-left") Cada asiento contable debe incluir una serie de elementos que garanticen su #[b validez legal, trazabilidad y confiabilidad técnica].
+    p(data-aos="fade-left") Según Ortiz Anaya (2018), “un registro sin soporte completo carece de valor probatorio y compromete la confiabilidad de toda la información contable” (p. 31).
+    p.mb-4(data-aos="fade-left") A continuación se presentan los elementos mínimos de un asiento contable en el libro diario:
     SlyderF.color-acento-botones.mb-5(columnas="col-lg-6 col-xl-4")
       .tarjeta.color-primario.p-4
         .row.justify-content-center.mb-3
@@ -204,10 +204,10 @@
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.4	Asientos de ajuste
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-2.col-8.mb-4(data-aos="fade-right")
+      .col-lg-2.col-4.mb-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema1/img15.svg', alt='Imagen decorativa')
-      .col-lg-10
+      .col-lg-10(data-aos="fade-left")
         p Los asientos contables se clasifican de acuerdo con su función dentro del proceso contable. Reconocerlos permite organizar el flujo de registros y facilitar su análisis posterior.
         p Los asientos contables se clasifican según su función dentro del proceso contable. Cada tipo cumple un propósito específico que garantiza la integridad y coherencia de la información financiera registrada en los libros. A continuación, se presentan los principales tipos de asientos contables, con su finalidad y ejemplos representativos.
     .desktop
@@ -282,18 +282,18 @@
             h4 Asientos de corrección
             p #[b Finalidad]: Subsanar errores detectados en registros anteriores.
             p.mb-0 #[b Ejemplos]: Reversar asientos mal registrados.
-    p Como señala Burbano Ruiz (2011), “la clasificación de los asientos permite construir informes ordenados y comparables, esenciales para la toma de decisiones” (p. 77).
-    p Esta tipología también facilita la revisión de la información y el control interno contable.
+    p(data-aos="fade-left") Como señala Burbano Ruiz (2011), “la clasificación de los asientos permite construir informes ordenados y comparables, esenciales para la toma de decisiones” (p. 77).
+    p(data-aos="fade-left") Esta tipología también facilita la revisión de la información y el control interno contable.
 
     separador
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.5	Procedimiento para el registro de asientos contables
     .tarjeta-BG05.px-md-5.px-4
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-4.col-8.mb-4(data-aos="fade-right")
+        .col-lg-4.col-6.mb-4(data-aos="fade-right")
           figure
             img(src='@/assets/curso/temas/tema1/img20.svg', alt='Imagen decorativa')
-        .col-lg-8
+        .col-lg-8(data-aos="fade-left")
           p El registro contable de una operación no consiste en un acto aislado, sino en un #[b proceso técnico que va desde la identificación del hecho económico hasta su integración en los estados financieros].
           .bloque-texto-c.color-primario.p-4.mb-4
             i.fas.fa-quote-left
@@ -302,7 +302,7 @@
             i.fas.fa-quote-right
       
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-10
+        .col-lg-10(data-aos="fade-left")
           p El registro contable de las operaciones sigue un procedimiento estructurado que asegura la coherencia, trazabilidad y validez de la información financiera. Cada etapa cumple una función específica dentro del ciclo contable, desde la identificación del hecho económico hasta su incorporación en los estados financieros. A continuación, se describen las fases principales de este proceso.
       .titulo.mb-5(data-aos="fade-left")
         img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
@@ -376,12 +376,12 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img28.png', alt='Imagen decorativa')
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-7.order-2.order-lg-1
+      .col-lg-7.order-2.order-lg-1(data-aos="fade-left")
         p Este procedimiento asegura que los registros sean #[b completos, consistentes y auditables], conectando cada operación con los informes financieros que la resumen.
-        .cajon.color-secundario.p-4.mb-4
+        .cajon.color-secundario.p-4.mb-4(data-aos="fade-left")
           p Los asientos contables son el punto de partida del proceso contable. Comprender el principio de partida doble, la representación en cuenta T, los elementos y tipos de asientos, así como el procedimiento de registro, garantiza que los hechos económicos se conviertan en información clara, ordenada y confiable.
           p.mb-0 En el siguiente tema se estudiará el ciclo contable, que organiza cronológicamente estos registros para asegurar su trazabilidad y coherencia.
-      .col-lg-5.col-10.order-1.order-lg-2.mb-4
+      .col-lg-5.col-8.order-1.order-lg-2.mb-4
         figure
           img(src='@/assets/curso/temas/tema1/img29.svg', alt='Imagen decorativa')
 </template>
