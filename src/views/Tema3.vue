@@ -116,7 +116,7 @@
       .col-lg-5
         .titulo.mb-5(data-aos="fade-left")
           img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
-          h5.mb-0 Componentes de los libros contables
+          h5.mb-0 Componentes esenciales de los libros contables 
               
         ul.lista-ul--color.mb-4
           li(data-aos="fade-left")
