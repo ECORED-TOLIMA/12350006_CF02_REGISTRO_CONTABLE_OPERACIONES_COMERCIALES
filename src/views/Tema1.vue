@@ -79,8 +79,45 @@
                 td Crédito
                 td Deudora
     p(data-aos="fade-left") Este principio asegura que el sistema contable #[b permanezca en equilibrio matemático], pues la suma de todos los débitos siempre será igual a la suma de todos los créditos.
-    p(data-aos="fade-left") Así, la partida doble permite comprender de dónde provienen los recursos (créditos) y en qué se utilizan (débitos), creando un registro coherente y verificable.
+    p.mb-5(data-aos="fade-left") Así, la partida doble permite comprender de dónde provienen los recursos (créditos) y en qué se utilizan (débitos), creando un registro coherente y verificable.
 
+    .titulo.mb-5(data-aos="fade-left")
+      h5.mb-0 Ejemplo de aplicación de la partida doble
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12(data-aos="fade-left")
+        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
+          .row(titulo="A.	Compra de mercancías en efectivo por $ 1.000.000")
+            .col-lg-6.order-lg-1.order-2
+              p - Débito: Inventarios $1.000.000 (aumenta el activo).
+              P - Crédito: Caja $1.000.000 (disminuye el activo).
+              p En esta transacción, el total de activos no varía, ya que disminuye el efectivo, pero aumenta el inventario en la misma proporción.
+            .col-lg-6.col-12.order-1.order-lg-2.mb-4.mb-lg-0
+              figure
+                img(src='@/assets/curso/temas/tema1/img1_4.png', alt='Texto que describa la imagen')
+          .row(titulo="B.	Compra de mercancías en efectivo por $ 1.000.000")
+            .col-lg-6.order-lg-1.order-2
+              p - Débito: Muebles y enseres $5.000.000 (aumenta el activo).
+              p - Crédito: Proveedores $5.000.000 (aumenta el pasivo).
+              p Aunque no hay salida inmediata de efectivo, se incrementa un activo (el mobiliario) y, al mismo tiempo, surge una obligación con terceros, manteniendo equilibrado el patrimonio.
+              
+            .col-lg-6.col-12.order-1.order-lg-2.mb-4.mb-lg-0
+              figure
+                img(src='@/assets/curso/temas/tema1/img2_4.png', alt='Texto que describa la imagen')
+          .row(titulo="C.	Ingreso por prestación de servicios en efectivo por $ 2.000.000")
+            .col-lg-6.order-lg-1.order-2
+              p - Débito: Caja $2.000.000 (aumenta el activo).
+              p - Crédito: Ingresos por servicios $2.000.000 (aumenta el patrimonio).
+              p Este caso muestra cómo la partida doble no solo asegura el equilibrio del balance contable, sino que también refleja el resultado económico, al incrementar tanto el activo como el patrimonio de la empresa.
+              
+            .col-lg-6.col-12.order-1.order-lg-2.mb-4.mb-lg-0
+              figure
+                img(src='@/assets/curso/temas/tema1/img3_4.png', alt='Texto que describa la imagen')
+    p.mb-5 La partida doble es el principio que da coherencia a toda la contabilidad. Según Muñoz Maza (2016), este método no solo organiza las operaciones, sino que clarifica el origen y la aplicación de los recursos. Ortiz Anaya (2018) destaca que su correcta aplicación garantiza la elaboración de estados financieros confiables y comparables, mientras que León García (2009) señala que sin ella sería imposible mantener un control contable que permita evaluar la sostenibilidad de un negocio.
+    .row.justify-content-center.align-items-center
+      .col-lg-10
+        .cajon.color-primario.p-4
+          p El método se fundamenta en que toda transacción afecta, al menos, dos cuentas: una que se debita y otra que se acredita. En operaciones simples puede intervenir un par de cuentas, mientras que en transacciones más complejas participan varias, siempre bajo la regla de que la suma de los débitos es igual a la suma de los créditos. Este principio asegura el equilibrio contable y la integridad de la información financiera. 
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.2	Representación en cuenta T
@@ -96,19 +133,111 @@
       .col-lg-5.col-8.order-1.order-lg-2.mb-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema1/img4.png', alt='Imagen decorativa')
+    p.mb-5 Su nombre proviene de su forma, que asemeja a una gran letra “T” dividida en dos columnas. En la parte superior se escribe el código y el concepto o nombre de la cuenta, mientras que cada lado de la “T” cumple una función específica:
     .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        ImagenInfografica.color-acento-botones.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema1/img18.svg', alt='Texto que describa la imagen')
+          .tarjeta.tarjeta.bgblanco2.color-acento-botones.p-3(x="28%" y="77%" numero="+")
+            p Registra los valores que recibe la cuenta.
+          .tarjeta.tarjeta.bgblanco2.color-acento-botones.p-3(x="72%" y="77%" numero="+")            
+            p Registra los valores que entrega la cuenta.
+    p.mb-5 Cada cuenta T puede mostrar dos aspectos principales:
+
+    .row.mb-5
+      .col-lg-6.mb-lg-0.mb-4(data-aos="fade-left")
+        .tarjeta.tarjeta--BG06.h-100
+          figure
+            img(src='@/assets/curso/temas/tema1/img30.png', alt='Texto que describa la imagen')
+          .p-4
+            h5 Movimientos
+            p.mb-0 Anotaciones de los débitos y créditos que se registran durante un periodo.
+      .col-lg-6(data-aos="fade-right")
+        .tarjeta.tarjeta--BG06.h-100
+          figure
+            img(src='@/assets/curso/temas/tema1/img31.png', alt='Texto que describa la imagen')         
+          .p-4
+            h5 Saldo
+            p.mb-0 Diferencia resultante entre los débitos y créditos acumulados.
+    
+    .titulo.mb-4(data-aos="fade-left")
+      img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
+      h5.mb-0 Naturaleza de las cuentas y su efecto en la cuenta T
+    p.mb-5 Las cuentas pueden ser de naturaleza débito o naturaleza crédito, y esto determina cómo afectan los registros en el debe y el haber dentro de la cuenta T.
+
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-10(data-aos="fade-left")
-        p.mb-4 La siguiente figura muestra la estructura básica de una cuenta T, con sus elementos principales organizados de forma clara.
-        .titulo-sexto.color-acento-contenido.offset-0(data-aos="fade-left")
-          h5 Figura 1.
-          i Estructura de la cuenta T
-      .col-lg-10.desktop(data-aos="fade-left")
-        figure
-          img(src='@/assets/curso/temas/tema1/img5.svg', alt='Diagrama de una cuenta en forma de “T” con el encabezado superior que indica “Código y nombre de la cuenta”. El lado izquierdo está identificado como Débito (Debe) y el lado derecho como Crédito (Haber). Debajo de cada columna se muestran las secciones de Movimientos y Saldo, indicando “Movimientos débitos” y “Saldo deudor” a la izquierda, y “Movimientos créditos” y “Saldo acreedor” a la derecha.')
-      .col-lg-10.movil(data-aos="fade-left")
-        figure
-          img(src='@/assets/curso/temas/tema1/img5_1.svg', alt='Diagrama de una cuenta en forma de “T” con el encabezado superior que indica “Código y nombre de la cuenta”. El lado izquierdo está identificado como Débito (Debe) y el lado derecho como Crédito (Haber). Debajo de cada columna se muestran las secciones de Movimientos y Saldo, indicando “Movimientos débitos” y “Saldo deudor” a la izquierda, y “Movimientos créditos” y “Saldo acreedor” a la derecha.')
+        LineaTiempoD.color-acento-botones
+          .row.justify-content-center(numero="1" titulo="Cuentas de naturaleza débito")
+            .col-lg-12.order-lg-2.order-3
+              p Aumentan cuando se registran en el debe y disminuyen cuando se registran en el haber.
+              P Ejemplos:
+              .tarjeta.bgblanco3
+                ul.lista-ul
+                  li
+                    i.fas.fa-circle
+                    p.mb-0 #[b Activos:] aumentan con débitos y disminuyen con créditos.
+                  li
+                    i.fas.fa-circle
+                    p.mb-0 #[b Gastos:] aumentan con débitos y disminuyen con créditos.
+                  li
+                    i.fas.fa-circle
+                    p.mb-0 #[b Costos:] aumentan con débitos y disminuyen con créditos.
+
+            .col-lg-12.order-lg-3.order-1.mb-md-4
+              figure
+                img(src='@/assets/curso/temas/tema1/img32.png', alt="Imagen decorativa")
+          .row.justify-content-center(numero="2" titulo="Cuentas de naturaleza crédito")
+            .col-lg-12.order-lg-2.order-3
+              p Aumentan cuando se registran en el haber y disminuyen cuando se registran en el debe.
+              P Ejemplos:
+              .tarjeta.bgblanco3
+                ul.lista-ul
+                  li
+                    i.fas.fa-circle
+                    p.mb-0 #[b Pasivos:] aumentan con créditos y disminuyen con débitos.
+                  li
+                    i.fas.fa-circle
+                    p.mb-0 #[b Patrimonio:] aumenta con créditos y disminuye con débitos.
+                  li
+                    i.fas.fa-circle
+                    p.mb-0 #[b Ingresos:] aumentan con créditos y disminuyen con débitos.
+            .col-lg-12.order-lg-3.order-1.mb-md-4
+              figure
+                img(src='@/assets/curso/temas/tema1/img33.png', alt="Imagen decorativa")
+    p.mb-5 De esta manera, los activos, gastos y costos disminuyen con créditos y aumentan con débitos, mientras que pasivos, patrimonio e ingresos se comportan de forma contraria.
+    .titulo.mb-4(data-aos="fade-left")
+      img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
+      h5.mb-0 Dinámica de la cuenta T
+    p.mb5 Tradicionalmente, la cuenta T ha sido utilizada como una herramienta visual para representar los movimientos contables. Sin embargo, en la práctica contable actual, este método ha dejado de usarse para la elaboración formal de los registros contables.
     .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .cajon.color-primario.p-4.mb-4
+          p.mb-0 Las cuentas T han sido sustituidas por registros oficiales que sirven de base para la elaboración de los comprobantes de contabilidad y los libros auxiliares correspondientes. Además, estos procesos están siendo cada vez más reemplazados por #[i software] especializado, que automatiza y facilita la gestión contable.
+    
+    .titulo.mb-4(data-aos="fade-left")
+      img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
+      h5.mb-0 Método de la ecuación contable
+    p Partiendo del método de la contabilidad de partida doble, se establece la ecuación contable fundamental, que muestra el equilibrio entre los activos y la suma de los pasivos y el patrimonio:
+    p.mb-5 #[b ACTIVOS = PASIVOS + PATRIMONIO]
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .cajon.color-secundario.p-4.mb-4
+          .row.justify-content-center.align-items-center
+            .col-2
+              figure
+                img(src='@/assets/curso/temas/tema1/img34.svg', alt="Imagen decorativa")
+            .col-lg-10
+              p.mb-0 Según Contabilidad y Finanzas (2009), esta ecuación puede expresarse también de otras formas derivadas de la ecuación original, como:
+              p.mb-0 - Activos + Costos + Gastos = Pasivos + Patrimonio + Ingresos.
+              p.mb-0 - Activos = Pasivos + Patrimonio + (Ingresos - Costos - Gastos).
+              p.mb-0 - Activos - Pasivos = Patrimonio + (Ingresos - Costos - Gastos).
+
+
+    .row.justify-content-center.align-items-center
       .col-lg-5.col-8.mb-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema1/img6.png', alt='Imagen decorativa')
@@ -184,7 +313,7 @@
           p.text-center.mb-0 Facturas, recibos, extractos, contratos, nóminas, entre otros.
     .row.justify-content-center.align-items-center
       .col-lg-5.order-2.order-lg-1(data-aos="fade-right")
-        .titulo.mb-4(data-aos="fade-left")
+        .titulo.mb-5(data-aos="fade-left")
           h5.mb-0 Ejemplo
         p Compra de materia prima en efectivo por $ 2.000.000 el 1 de marzo:
         ul.lista-ul--color.mb-4
@@ -218,8 +347,8 @@
             .tarjeta-slide__contenedor
               .tarjeta-slide__contenido.p-4.p-xl-5
                 h4 Asientos operativos
-                p #[b Finalidad]: Registrar las transacciones diarias de la empresa.
-                p.mb-0 #[b Ejemplos]: Compras, ventas, pagos, cobros.
+                p #[b Finalidad]: registrar las transacciones diarias de la empresa.
+                p.mb-0 #[b Ejemplos]: compras, ventas, pagos, cobros.
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img16.png')})`}")
 
         .col-6.col-md-3.mb-4.mb-xl-0
@@ -228,8 +357,8 @@
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img17.png')})`}")
               .tarjeta-slide__contenido.p-4.p-xl-5
                 h4 Asientos de ajuste
-                p #[b Finalidad]: Reconocer operaciones devengadas que aún no han sido registradas.
-                p.mb-0 #[b Ejemplos]: Provisiones, depreciaciones, amortizaciones.
+                p #[b Finalidad]: reconocer operaciones devengadas que aún no han sido registradas.
+                p.mb-0 #[b Ejemplos]: provisiones, depreciaciones, amortizaciones.
 
         .col-6.col-md-3.mb-4.mb-xl-0
           .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
@@ -237,8 +366,8 @@
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img18.png')})`}")
               .tarjeta-slide__contenido.p-4.p-xl-5
                 h4 Asientos de cierre
-                p #[b Finalidad]: Cancelar las cuentas de ingresos y gastos al final del periodo contable.
-                p.mb-0 #[b Ejemplos]: Determinar el resultado del ejercicio.
+                p #[b Finalidad]: cancelar las cuentas de ingresos y gastos al final del periodo contable.
+                p.mb-0 #[b Ejemplos]: determinar el resultado del ejercicio.
 
         .col-6.col-md-3.mb-4.mb-xl-0
           .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
@@ -246,8 +375,8 @@
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img19.png')})`}")
               .tarjeta-slide__contenido.p-4.p-xl-5
                 h4 Asientos de corrección
-                p #[b Finalidad]: Subsanar errores detectados en registros anteriores.
-                p.mb-0 #[b Ejemplos]: Reversar asientos mal registrados.
+                p #[b Finalidad]: subsanar errores detectados en registros anteriores.
+                p.mb-0 #[b Ejemplos]: reversar asientos mal registrados.
    
     .movil
       .row.justify-content-center.align-items-center.mb-5
@@ -256,32 +385,32 @@
             figure.mb-3
               img(src='@/assets/curso/temas/tema1/img16_1.png', alt='Imagen decorativa')
             h4 Asientos operativos
-            p #[b Finalidad]: Registrar las transacciones diarias de la empresa.
-            p.mb-0 #[b Ejemplos]: Compras, ventas, pagos, cobros.
+            p #[b Finalidad]: registrar las transacciones diarias de la empresa.
+            p.mb-0 #[b Ejemplos]: compras, ventas, pagos, cobros.
       .row.justify-content-center.align-items-center.mb-5
         .col-10
           .tarjeta.tarjeta--BG02.p-4
             figure.mb-3
               img(src='@/assets/curso/temas/tema1/img17_1.png', alt='Imagen decorativa')
             h4 Asientos de ajuste
-            p #[b Finalidad]: Reconocer operaciones devengadas que aún no han sido registradas.
-            p.mb-0 #[b Ejemplos]: Provisiones, depreciaciones, amortizaciones.
+            p #[b Finalidad]: reconocer operaciones devengadas que aún no han sido registradas.
+            p.mb-0 #[b Ejemplos]: provisiones, depreciaciones, amortizaciones.
       .row.justify-content-center.align-items-center.mb-5
         .col-10
           .tarjeta.tarjeta--BG02.p-4
             figure.mb-3
               img(src='@/assets/curso/temas/tema1/img18_1.png', alt='Imagen decorativa')
             h4 Asientos de cierre
-            p #[b Finalidad]: Cancelar las cuentas de ingresos y gastos al final del periodo contable.
-            p.mb-0 #[b Ejemplos]: Determinar el resultado del ejercicio.
+            p #[b Finalidad]: cancelar las cuentas de ingresos y gastos al final del periodo contable.
+            p.mb-0 #[b Ejemplos]: determinar el resultado del ejercicio.
       .row.justify-content-center.align-items-center.mb-5
         .col-10
           .tarjeta.tarjeta--BG02.p-4
             figure.mb-3
               img(src='@/assets/curso/temas/tema1/img19_1.png', alt='Imagen decorativa')
             h4 Asientos de corrección
-            p #[b Finalidad]: Subsanar errores detectados en registros anteriores.
-            p.mb-0 #[b Ejemplos]: Reversar asientos mal registrados.
+            p #[b Finalidad]: subsanar errores detectados en registros anteriores.
+            p.mb-0 #[b Ejemplos]: reversar asientos mal registrados.
     p(data-aos="fade-left") Como señala Burbano Ruiz (2011), “la clasificación de los asientos permite construir informes ordenados y comparables, esenciales para la toma de decisiones” (p. 77).
     p(data-aos="fade-left") Esta tipología también facilita la revisión de la información y el control interno contable.
 
@@ -313,8 +442,8 @@
           .row.justify-content-center
             .col-lg-4.order-2.order-lg-1
               h4 Identificación del hecho económico
-              p #[b Descripción:] Reconocer una operación que afecta la situación financiera.
-              p #[b Producto generado:] Hecho económico identificado.
+              p #[b Descripción:] reconocer una operación que afecta la situación financiera.
+              p #[b Producto generado:] hecho económico identificado.
 
             .col-lg-6.col-10.order-1.order-lg-2.mb-4
               figure
@@ -322,56 +451,56 @@
           .row.justify-content-center
             .col-lg-4.order-2.order-lg-1
               h4 Validación del soporte contable
-              p #[b Descripción:] Verificar la existencia, legalidad y pertinencia del documento que respalda la operación.
-              p #[b Producto generado:] Soporte validado.
+              p #[b Descripción:] verificar la existencia, legalidad y pertinencia del documento que respalda la operación.
+              p #[b Producto generado:] soporte validado.
             .col-lg-6.col-10.order-1.order-lg-2.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/img22.png', alt='Imagen decorativa')
           .row.justify-content-center
             .col-lg-4.order-2.order-lg-1
               h4 Clasificación y codificación en el Plan Único de Cuentas (PUC)
-              p #[b Descripción:] Determinar las cuentas afectadas y sus códigos conforme al PUC.
-              p #[b Producto generado:] Cuentas codificadas.
+              p #[b Descripción:] determinar las cuentas afectadas y sus códigos conforme al PUC.
+              p #[b Producto generado:] cuentas codificadas.
             .col-lg-6.col-10.order-1.order-lg-2.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/img23.png', alt='Imagen decorativa')
           .row.justify-content-center
             .col-lg-4.order-2.order-lg-1
               h4 Elaboración del comprobante de contabilidad
-              p #[b Descripción:] Crear el documento con fecha, valores, glosa, terceros y firmas autorizadas.
-              p #[b Producto generado:] Comprobante contable listo.
+              p #[b Descripción:] crear el documento con fecha, valores, glosa, terceros y firmas autorizadas.
+              p #[b Producto generado:] comprobante contable listo.
             .col-lg-6.col-10.order-1.order-lg-2.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/img24.png', alt='Imagen decorativa')
           .row.justify-content-center
             .col-lg-4.order-2.order-lg-1
               h4 Registro en libro diario
-              p #[b Descripción:] Ingresar cronológicamente la operación.
-              p #[b Producto generado:] Asiento registrado.
+              p #[b Descripción:] ingresar cronológicamente la operación.
+              p #[b Producto generado:] asiento registrado.
             .col-lg-6.col-10.order-1.order-lg-2.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/img25.png', alt='Imagen decorativa')
           .row.justify-content-center
             .col-lg-4.order-2.order-lg-1
               h4 Mayorización a libro mayor
-              p #[b Descripción:] Trasladar los movimientos para acumular saldos por cuenta.
-              p #[b Producto generado:] Saldos actualizados.
+              p #[b Descripción:] trasladar los movimientos para acumular saldos por cuenta.
+              p #[b Producto generado:] saldos actualizados.
             .col-lg-6.col-10.order-1.order-lg-2.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/img26.png', alt='Imagen decorativa')
           .row.justify-content-center
             .col-lg-4.order-2.order-lg-1
               h4 Conciliación y verificación
-              p #[b Descripción:] Comprobar saldos, totales y soporte documental.
-              p #[b Producto generado:] Balance de comprobación parcial.
+              p #[b Descripción:] comprobar saldos, totales y soporte documental.
+              p #[b Producto generado:] balance de comprobación parcial.
             .col-lg-6.col-10.order-1.order-lg-2.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/img27.png', alt='Imagen decorativa')
           .row.justify-content-center
             .col-lg-4.order-2.order-lg-1
               h4 Consolidación en estados financieros
-              p #[b Descripción:] Incorporar los saldos finales de cuentas en los informes contables.
-              p #[b Producto generado:] Estados financieros elaborados.
+              p #[b Descripción:] incorporar los saldos finales de cuentas en los informes contables.
+              p #[b Producto generado:] estados financieros elaborados.
             .col-lg-6.col-10.order-1.order-lg-2.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/img28.png', alt='Imagen decorativa')
@@ -379,8 +508,8 @@
       .col-lg-7.order-2.order-lg-1(data-aos="fade-left")
         p Este procedimiento asegura que los registros sean #[b completos, consistentes y auditables], conectando cada operación con los informes financieros que la resumen.
         .cajon.color-secundario.p-4.mb-4(data-aos="fade-left")
-          p Los asientos contables son el punto de partida del proceso contable. Comprender el principio de partida doble, la representación en cuenta T, los elementos y tipos de asientos, así como el procedimiento de registro, garantiza que los hechos económicos se conviertan en información clara, ordenada y confiable.
-          p.mb-0 En el siguiente tema se estudiará el ciclo contable, que organiza cronológicamente estos registros para asegurar su trazabilidad y coherencia.
+          p Los asientos contables son el punto de partida del proceso contable. Comprender el principio de partida doble, la representación en cuenta T, los elementos y tipos de asientos, así como el procedimiento de registro, #[b garantiza que los hechos económicos se conviertan en información clara, ordenada y confiable].
+          p.mb-0 En el siguiente tema se estudiará el #[b ciclo contable], que organiza cronológicamente estos registros para asegurar su trazabilidad y coherencia.
       .col-lg-5.col-8.order-1.order-lg-2.mb-4
         figure
           img(src='@/assets/curso/temas/tema1/img29.svg', alt='Imagen decorativa')

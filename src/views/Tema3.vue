@@ -59,12 +59,12 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .titulo-sexto.color-acento-contenido.offset-0(data-aos="fade-left")
-          h5 Figura 4.
+          h5 Figura 3.
           i  Esquema jerárquico de libros contables
       .col-lg-10.desktop(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema3/img4.svg', alt='Diagrama en forma jerárquica que organiza los libros contables en dos niveles principales. En la parte superior se ubican los libros principales: libro diario, libro mayor y libro de inventarios y balances, que concentran el registro formal y obligatorio de las operaciones. Desde ellos descienden los libros auxiliares, que detallan información específica de cuentas como bancos, cuentas por cobrar, cuentas por pagar, inventarios y nómina, sirviendo de soporte para los libros principales.')
-      .col-10.movil(data-aos="fade-left")
+      .col-12.movil(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema3/img4_1.svg', alt='Diagrama en forma jerárquica que organiza los libros contables en dos niveles principales. En la parte superior se ubican los libros principales: libro diario, libro mayor y libro de inventarios y balances, que concentran el registro formal y obligatorio de las operaciones. Desde ellos descienden los libros auxiliares, que detallan información específica de cuentas como bancos, cuentas por cobrar, cuentas por pagar, inventarios y nómina, sirviendo de soporte para los libros principales.')
     
@@ -352,7 +352,7 @@
         p.mb-0 Este procedimiento también facilita detectar registros duplicados o mal clasificados.
           br
           br
-          | Este proceso de traspaso y clasificación no solo es clave para conocer los saldos intermedios, sino también para preparar el balance de comprobación, que es el paso previo a la elaboración de estados financieros. Ortiz Anaya (2018) afirma que “sin un libro mayor bien estructurado, el ciclo contable se vería interrumpido, pues no habría forma de consolidar saldos ni garantizar la exactitud de la información financiera” (p. 68). En síntesis, el libro mayor actúa como un puente entre los registros cronológicos del libro diario y la presentación ordenada de la información contable para la toma de decisiones.
+          | Además de ser un mecanismo de control interno, las conciliaciones y revisiones cruzadas contribuyen a mantener la transparencia y orden en la contabilidad, evitando errores que puedan alterar los estados financieros. Ortiz Anaya (2018) resalta que “un sistema contable confiable no se basa solo en registrar, sino en verificar y validar continuamente la información para asegurar que represente fielmente la realidad económica de la empresa” (p. 78). Con estas acciones, la empresa puede garantizar la consistencia de sus registros, lo que genera mayor confianza para la toma de decisiones y para las auditorías externas.
 
     .row.justify-content-center
       .col-lg-10
@@ -366,7 +366,7 @@
       .col-lg-6(data-aos="fade-right")
         p La #[b conciliación bancaria] básica es el proceso mediante el cual se comparan los registros contables de la cuenta Bancos con el extracto oficial emitido por la entidad financiera, con el objetivo de identificar diferencias y ajustar la contabilidad. Estas diferencias pueden originarse por cheques girados pero aún no cobrados, consignaciones en tránsito, cargos bancarios o errores en los registros internos. 
         p Por ejemplo, si el libro contable de Bancos refleja un saldo de $12.500.000 y el extracto bancario muestra $12.000.000, la diferencia de $ 500.000 puede deberse a un cheque pendiente de cobro. 
-        .bloque-texto-c.color-primario.p-4.mb-4
+        .cajon.color-secundario.p-4.mb-4
           p.mb-0 Fierro Martínez (2011) explica que “la conciliación bancaria asegura que la contabilidad interna coincida con la realidad financiera, evitando distorsiones que afecten la liquidez y el control de efectivo” (p. 125).
 
     .row.justify-content-center.align-items-center.mb-4
@@ -391,7 +391,7 @@
       .col-lg-3.col-8.mb-4(data-aos="fade-right")
         figure(data-aos="fade-left")
           img(src='@/assets/curso/temas/tema3/img15.svg', alt='Imagen decorativa')
-      .col-lg-9(data-aos="fade-left")
+      .col-lg-7(data-aos="fade-left")
         p Por ejemplo, si el libro contable de Bancos refleja un saldo de $12.500.000 y el extracto bancario muestra $12.000.000, la diferencia de $500.000 puede deberse a un cheque pendiente de cobro.
         p.mb-0 Además, la revisión cruzada permite identificar errores comunes como registros duplicados, transacciones omitidas o valores mal clasificados. Este procedimiento no solo ayuda a mantener el orden en la contabilidad, sino que también previene inconsistencias que podrían afectar el análisis financiero y la elaboración de los estados financieros. Una revisión cruzada periódica garantiza que cada movimiento esté soportado, registrado en las cuentas adecuadas y reflejado de forma correcta en los saldos finales, asegurando que la información contable sea clara y confiable para la gestión administrativa y las auditorías externas.
 

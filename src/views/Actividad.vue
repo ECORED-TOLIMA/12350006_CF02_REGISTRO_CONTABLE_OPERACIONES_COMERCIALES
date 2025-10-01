@@ -15,7 +15,8 @@ export default {
     cuestionario: {
       tema: 'tema_actividad_didactica',
       titulo: 'Cuestionario',
-      introduccion: 'texto_introductorio_actividad_didactica',
+      introduccion:
+        'Evaluar la comprensión del ciclo contable y su relación con las operaciones financieras, identificando correctamente las etapas del proceso contable, el uso de los libros principales, las conciliaciones y la elaboración de los estados financieros básicos. ',
       barajarPreguntas: true,
       preguntas: [
         {
@@ -171,7 +172,7 @@ export default {
         {
           id: 11,
           texto:
-            'La revisión cruzada de registros contables no es necesaria si se usa <em>software<em> contable.',
+            'En una cuenta T, el lado izquierdo corresponde al crédito y el lado derecho al débito.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -305,7 +306,7 @@ export default {
         {
           id: 20,
           texto:
-            'El estado de resultados muestra los ingresos, costos y gastos de un periodo determinado.',
+            'La partida doble establece que por cada débito debe existir un crédito del mismo valor.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [

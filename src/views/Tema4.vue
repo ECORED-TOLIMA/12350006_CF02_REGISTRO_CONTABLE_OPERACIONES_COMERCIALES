@@ -12,7 +12,7 @@
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema4/img1.png', alt='Imagen decorativa')
       .col-lg-8
-        p(data-aos="fade-left") Los estados financieros básicos son el resultado final del ciclo contable, ya que presentan de manera ordenada y resumida la situación económica y financiera de la empresa. Entre los más importantes se encuentran el Estado de Situación Financiera (Balance General), que muestra los activos, pasivos y patrimonio, y el Estado de Resultados, que refleja los ingresos, costos y gastos del periodo contable. Fierro Martínez (2011) explica que “los estados financieros son el medio de comunicación entre la empresa y los usuarios internos y externos de la información contable” (p. 132). Por ello, su elaboración debe basarse en registros confiables y ajustados mediante conciliaciones previas.
+        p(data-aos="fade-left") Los #[b estados financieros básicos] son el resultado final del ciclo contable, ya que presentan de manera ordenada y resumida la situación económica y financiera de la empresa. Entre los más importantes se encuentran el #[b Estado de Situación Financiera (Balance General)], que muestra los activos, pasivos y patrimonio, y el #[b Estado de Resultados], que refleja los ingresos, costos y gastos del periodo contable. Fierro Martínez (2011) explica que “los estados financieros son el medio de comunicación entre la empresa y los usuarios internos y externos de la información contable” (p. 132). Por ello, su elaboración debe basarse en registros confiables y ajustados mediante conciliaciones previas.
         p(data-aos="fade-left") Su importancia radica en que:
         ul.lista-ul--color.mb-4
           li(data-aos="fade-left")
@@ -40,13 +40,13 @@
     p.mb-4(data-aos="fade-left") La elaboración de los estados financieros es el resultado final del proceso contable, en el que se consolidan y presentan los datos registrados a lo largo del ciclo contable. Este procedimiento sigue una secuencia lógica que transforma los movimientos individuales en informes resumidos y estructurados. La siguiente figura ilustra las principales etapas que intervienen en la elaboración de los estados financieros.
 
     .titulo-sexto.color-acento-contenido.offset-0(data-aos="fade-left")
-      h5 Figura 5.
+      h5 Figura 4.
       i Diagrama de elaboración de estados financieros
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12.desktop(data-aos="fade-left")
+      .col-lg-10.desktop(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema4/img2.svg', alt='Diagrama de flujo que muestra el proceso para elaborar estados financieros: inicia con el registro de operaciones en el libro diario, continúa con el traslado de saldos al libro mayor, luego la verificación en el balance de comprobación, y finaliza con la preparación de los estados financieros que resumen la situación económica de la empresa.')
-      .col-10.movil(data-aos="fade-left")
+      .col-12.movil(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema4/img2_1.svg', alt='Diagrama de flujo que muestra el proceso para elaborar estados financieros: inicia con el registro de operaciones en el libro diario, continúa con el traslado de saldos al libro mayor, luego la verificación en el balance de comprobación, y finaliza con la preparación de los estados financieros que resumen la situación económica de la empresa.')
 
@@ -76,17 +76,17 @@
       .col-lg-7(data-aos="fade-right")
         p(data-aos="fade-left") Los estados financieros presentan la compilación, la tipificación y el resumen final de los datos contables en una fecha de corte determinada. El encargado de la preparación y presentación es el administrador de la empresa. Las clases de estados financieros se encuentran en el reglamento general de contabilidad, los cuales son necesarios para ofrecer información para aquellos que no tienen acceso a los registros contables.
         p(data-aos="fade-left") Para certificar los estados financieros de una empresa, el representante legal y el contador público los deben preparar y para ser dictaminados solo los que tengan opinión del revisor fiscal o, a falta de este, un contador público independiente.
-        .bloque-texto-c.color-primario.p-4.mb-4(data-aos="fade-left")
+        .cajon.color-secundario.p-4.mb-4(data-aos="fade-left")
           p.mb-0 Los elementos de los estados financieros representan las categorías básicas en las que se agrupan los hechos económicos registrados por una organización. Estos elementos permiten evaluar tanto la situación financiera (mediante el balance general) como el desempeño de las operaciones (mediante el estado de resultados). La siguiente figura presenta los principales elementos que componen los estados financieros.
     
     .titulo-sexto.color-acento-contenido.offset-1(data-aos="fade-left")
-      h5 Figura 6.
+      h5 Figura 5.
       i Los estados financieros y sus elementos
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.desktop(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema4/img6.svg', alt='Diagrama circular titulado “Los estados financieros y sus elementos” ubicado en el centro. Alrededor, cuatro círculos conectados por flechas indican los aspectos clave: Marco conceptual de presentación de estados financieros según las y las. Marco conceptual para la preparación de estados financieros según las. Importancia de los estados financieros. Naturaleza de los estados financieros.')
-      .col-10.movil(data-aos="fade-left")
+      .col-12.movil(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema4/img6_1.svg', alt='Diagrama circular titulado “Los estados financieros y sus elementos” ubicado en el centro. Alrededor, cuatro círculos conectados por flechas indican los aspectos clave: Marco conceptual de presentación de estados financieros según las y las. Marco conceptual para la preparación de estados financieros según las. Importancia de los estados financieros. Naturaleza de los estados financieros.')    
 
@@ -104,19 +104,19 @@
             h4 Importancia de los estados financieros
             p.mb-0 La importancia radica en que brindan información contable de manera transparente a terceros. Además posibilitan analizar los ahorros y gastos de la empresa.
           .col-lg-6.col-12.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src='@/assets/curso/temas/tema4/img7.png' alt="Imagen decorativa")
+            img(src='@/assets/curso/temas/tema4/img8.png' alt="Imagen decorativa")
         .row.justify-content-center
           .col-lg-6.order-lg-1.order-2
             h4 Naturaleza de los estados financieros
             p Los estados financieros nacen en la contabilidad. Son preparados para presentar informes periódicos sobre de la situación del negocio, los progresos de la administración y los resultados de un periodo. En éstos se observan los hechos registrados.
             p.mb-0 En los estados financieros observamos los hechos registrados (datos obtenidos de los registros contables) estructurados conforme a los principios de contabilidad, convenciones contables (procedimientos y supuestos) y juicios personales (decisiones que pueda tomar el contador).
           .col-lg-6.col-12.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src='@/assets/curso/temas/tema4/img7.png' alt="Imagen decorativa")
+            img(src='@/assets/curso/temas/tema4/img9.png' alt="Imagen decorativa")
 
     .titulo.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
       h5.mb-0 Estados Financieros Básicos
-    p(data-aos="fade-left") Se consideran básicos dentro de los estados financieros, el balance general y el estado de pérdidas y ganancias. Además de estos existen otros estados, aunque las normas legales los toman por básicos, para efectos de análisis financieros se consideran auxiliares o complementarios
+    p(data-aos="fade-left") Se consideran básicos dentro de los estados financieros, el balance general y el estado de pérdidas y ganancias. Además de estos existen otros estados, aunque las normas legales los toman por básicos, para efectos de análisis financieros se consideran auxiliares o complementarios.
     p.mb-4(data-aos="fade-left") En la práctica los más utilizados son los estados financieros de propósito general, o estados financieros básicos, son:
 
     .row.justify-content-center.align-items-center.mb-5
@@ -140,31 +140,25 @@
                   p.mb-0 Estado de activo, pasivo y capital.
             .col-lg-6.col-12.order-1.order-lg-2.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema4/img8.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema4/img10.png', alt='Texto que describa la imagen')
           .row(titulo="Estado de resultados")
             .col-lg-6.order-lg-1.order-2
               p También denominado como: estado de rentas y gastos; estado de ingresos y egresos; estado de utilidades; o estado de pérdidas y ganancias. Para algunos expertos este último es el más adecuado (aunque reconociendo que solo puede presentarse una a la vez: pérdidas o utilidades).
               p.mb-0 Este estado muestra los ingresos y los egresos, y la utilidad o pérdida resultante de las operaciones generalmente por período de un año. Es un estado dinámico porque refleja actividad; es acumulativo porque resume las operaciones de una empresa desde su primer año hasta el último del período asociado.
             .col-lg-6.col-12.order-1.order-lg-2.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema4/img9.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema4/img11.png', alt='Texto que describa la imagen')
           .row(titulo="Estado de cambios en el patrimonio o estado de superávit")
             .col-lg-6.order-lg-1.order-2
               p Es el estado que refleja el saldo inicial, el movimiento y el saldo final de cada una de las cuentas que conforman el patrimonio. Permite conocer la variación durante el período contable del capital, las reservas, las revalorizaciones, las utilidades, entre otras.
               p.mb-0 
             .col-lg-6.col-12.order-1.order-lg-2.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema4/img10.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema4/img12.png', alt='Texto que describa la imagen')
           .row(titulo="Estado de fuentes y aplicación de fondos (EFAF)")
             .col-lg-6.order-lg-1.order-2
               p Este se utiliza para predecir situaciones de riesgo que pueda llegar a tener la empresa. Por lo que muestra los cambios financieros y sus orígenes, proporcionando información sobre la financiación e inversiones de la empresa en un período determinado. No obstante, su objetivo principal se centra en la utilidad que tiene para evaluar la procedencia y uso de fondos en el largo plazo, lo que posibilita que el administrador financiero planee adecuadamente los requerimientos de fondos futuros.
               p.mb-0 Se le conoce con otros nombres como:
-            .col-lg-6.col-12.order-1.order-lg-2.mb-4.mb-lg-0
-              figure
-                img(src='@/assets/curso/temas/tema4/img11.png', alt='Texto que describa la imagen')
-          .row(titulo="Estado de flujos de efectivo (EFE)")
-            .col-lg-6.order-lg-1.order-2
-              p Los estados financieros básicos son informes contables esenciales que permiten conocer la situación económica, financiera y los resultados operativos de una organización durante un período determinado. Entre ellos se encuentra el estado de flujos de efectivo, que muestra de manera detallada el origen y uso del efectivo en actividades de operación, inversión y financiación. La siguiente figura presenta los principales estados financieros básicos.
               ul.lista-ul
                 li
                   i.lista-ul__vineta
@@ -180,15 +174,22 @@
                   p.mb-0 Estado de origen y aplicación de fondos o recursos.
             .col-lg-6.col-12.order-1.order-lg-2.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema4/img12.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema4/img13.png', alt='Texto que describa la imagen')
+          .row(titulo="Estado de flujos de efectivo (EFE)")
+            .col-lg-6.order-lg-1.order-2
+              p Los estados financieros básicos son informes contables esenciales que permiten conocer la situación económica, financiera y los resultados operativos de una organización durante un período determinado. Entre ellos se encuentra el estado de flujos de efectivo, que muestra de manera detallada el origen y uso del efectivo en actividades de operación, inversión y financiación. La siguiente figura presenta los principales estados financieros básicos.
+              
+            .col-lg-6.col-12.order-1.order-lg-2.mb-4.mb-lg-0
+              figure
+                img(src='@/assets/curso/temas/tema4/img14.png', alt='Texto que describa la imagen')
     .titulo-sexto.color-acento-contenido.offset-1(data-aos="fade-left")
-      h5 Figura 7.
+      h5 Figura 6.
       i Estados Financieros Básicos
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.desktop(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema4/img16.svg', alt='Diagrama circular titulado “Estados financieros básicos” en el centro. Alrededor, siete círculos naranjas conectados indican sus componentes clave: Estado de resultados. Estado de cambios en el patrimonio o estado de superávit. Estado de cambios en la situación financiera. Estado de flujos de efectivo. Principios de los estados financieros. Limitaciones de los estados financieros. Balance general')
-      .col-10.movil(data-aos="fade-left")
+      .col-12.movil(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema4/img16_1.svg', alt='Diagrama circular titulado “Estados financieros básicos” en el centro. Alrededor, siete círculos naranjas conectados indican sus componentes clave: Estado de resultados. Estado de cambios en el patrimonio o estado de superávit. Estado de cambios en la situación financiera. Estado de flujos de efectivo. Principios de los estados financieros. Limitaciones de los estados financieros. Balance general')    
 
@@ -197,18 +198,18 @@
       h2 4.1	Estado de situación financiera (Balance General)
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4.col-8.mb-4.lg-mb-0
+      .col-lg-3.col-8.mb-4.lg-mb-0
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema4/img17.png', alt='Imagen decorativa')
-      .col-lg-6
-        .cajon.color-primario.p-4.mb-4(data-aos="fade-left")
+      .col-lg-7
+        .cajon.color-secundario.p-4.mb-4(data-aos="fade-left")
           p.mb-0 El #[b Estado de Situación Financiera], conocido también como Balance General, es un informe contable que muestra la situación económica de la empresa en un momento determinado. Este documento presenta de forma ordenada los activos, que son los recursos y derechos de la organización; los pasivos, que representan las obligaciones con terceros; y el patrimonio, que es la inversión de los propietarios más los resultados acumulados. Su estructura se basa en la ecuación contable fundamental: Activos = Pasivos + Patrimonio, garantizando el equilibrio de las cifras y reflejando la realidad financiera de la entidad.
         p(data-aos="fade-left") Por ejemplo, si una empresa tiene activos compuestos por efectivo en bancos por #[b $ 15.000.000], inventarios por #[b $ 8.000.000] y cuentas por cobrar por #[b $ 5.000.000], el total de sus activos sería #[b $ 28.000.000]. Si, a su vez, mantiene pasivos por préstamos bancarios de #[b $ 10.000.000] y cuentas por pagar a proveedores por #[b $ 6.000.000], el total de sus pasivos sería #[b $ 16.000.000]. En este caso, el patrimonio sería la diferencia: #[b $ 12.000.000], que corresponde al capital aportado y las utilidades retenidas. Este ejemplo evidencia cómo el balance refleja la posición financiera de manera clara y resumida.
     .row.justify-content-center.align-items-center
       .col-lg-10
         .cajon.color-primario.p-4(data-aos="fade-left")
-          p(data-aos="fade-left") El Balance General se presenta generalmente en dos grandes secciones: la parte de activos, ordenados según su liquidez, y la parte de pasivos y patrimonio, ordenados según su exigibilidad. Esta clasificación permite que los usuarios de la información identifiquen rápidamente qué recursos son más fáciles de convertir en efectivo y qué obligaciones deben cumplirse en el corto o largo plazo. Además, facilita analizar la solvencia de la empresa, evaluando si sus activos corrientes son suficientes para cubrir las obligaciones inmediatas, lo que se conoce como el análisis de liquidez.
-          p.mb-0(data-aos="fade-left") Además de ser un requisito contable y legal, el Estado de Situación Financiera es una herramienta clave para la toma de decisiones. Permite a los administradores conocer la capacidad de endeudamiento, planificar inversiones y controlar el crecimiento financiero de la empresa. También sirve a inversionistas, bancos y entidades de control para evaluar la estabilidad y sostenibilidad económica de la organización. Por ello, su correcta elaboración es fundamental para que represente fielmente la situación financiera y sirva de base para el análisis y la planeación estratégica.      
+          p(data-aos="fade-left") El Balance General se presenta generalmente en dos grandes secciones: la parte de #[b activos], ordenados según su liquidez, y la parte de #[b pasivos y patrimonio], ordenados según su exigibilidad. Esta clasificación permite que los usuarios de la información identifiquen rápidamente qué recursos son más fáciles de convertir en efectivo y qué obligaciones deben cumplirse en el corto o largo plazo. Además, facilita analizar la solvencia de la empresa, evaluando si sus activos corrientes son suficientes para cubrir las obligaciones inmediatas, lo que se conoce como el análisis de liquidez.
+          p.mb-0(data-aos="fade-left") Además de ser un requisito contable y legal, el Estado de Situación Financiera es una herramienta clave para la #[b toma de decisiones]. Permite a los administradores conocer la capacidad de endeudamiento, planificar inversiones y controlar el crecimiento financiero de la empresa. También sirve a inversionistas, bancos y entidades de control para evaluar la estabilidad y sostenibilidad económica de la organización. Por ello, su correcta elaboración es fundamental para que represente fielmente la situación financiera y sirva de base para el análisis y la planeación estratégica.      
     
     separador
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
@@ -309,7 +310,7 @@
             .col-lg-2.col-4.mb-lg-0.mb-4
               img(src='@/assets/curso/temas/tema4/img31.svg' alt="Imagen decorativa")
             .col-lg-10
-              p.mb-0 Representan el trabajo de varias partes de la empresa (la gerencia, el contador, la auditoría) con diferentes intereses. E incluyen mucho criterio personal en la valoración y presentación de ciertos rubros.
+              p.mb-0 Representan el trabajo de varias partes de la empresa (la gerencia, el contador, la auditoría) con diferentes intereses. Además, suelen incluir un componente significativo de juicio personal en la valoración y presentación de determinados rubros.
       .col-lg-6.col-sm-10.mb-4(data-aos="fade-right")
         .tarjeta.BG03.p-4.h-100
           .row.justify-content-center.align-items-center
@@ -345,13 +346,13 @@
     p.mb-4 La siguiente figura muestra cómo cada fase del ciclo contable aporta a la construcción de los estados financieros.
 
     .titulo-sexto.color-acento-contenido.offset-0(data-aos="fade-left")
-      h5 Figura 8.
+      h5 Figura 7.
       i Relación entre el ciclo contable y los estados financieros
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12.desktop(data-aos="fade-left")
+      .col-lg-10.desktop(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema4/img35.svg', alt='Diagrama de flujo que muestra la secuencia contable: registro de operaciones diarias (compras, ventas, gastos e ingresos), traslado de saldos al libro mayor, verificación en el balance de comprobación y elaboración de los estados financieros, destacando cómo cada transacción impacta en cuentas específicas y en los informes finales.')
-      .col-10.movil(data-aos="fade-left")
+      .col-12.movil(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema4/img35_1.svg', alt='Diagrama de flujo que muestra la secuencia contable: registro de operaciones diarias (compras, ventas, gastos e ingresos), traslado de saldos al libro mayor, verificación en el balance de comprobación y elaboración de los estados financieros, destacando cómo cada transacción impacta en cuentas específicas y en los informes finales.')
 

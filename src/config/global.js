@@ -184,15 +184,15 @@ export default {
     {
       tema: 'Ciclo contable: guía completa para principiantes',
       referencia:
-        'Canal Aprende Contabilidad. (2023). Ciclo contable paso a paso – guía completa. YouTube.',
-      tipo: 'Video educativo',
+        'Canal Aprende Contabilidad. (2023). <em>Ciclo contable paso a paso – guía completa</em>. YouTube.',
+      tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=ra7ag3GGxYM',
     },
     {
       tema: 'Ciclo contable explicado paso a paso',
       referencia:
-        'Canal Contabilidad para Principiantes. (2023). Registros contables para principiantes: ciclo contable paso a paso. YouTube.',
-      tipo: 'Video educativo',
+        'Canal Contabilidad para Principiantes. (2023). <em>Registros contables para principiantes: ciclo contable paso a paso</em>. YouTube.',
+      tipo: 'Video',
       link: 'https://youtu.be/Nr2dkFpT6GE',
     },
   ],
@@ -241,42 +241,42 @@ export default {
   referencias: [
     {
       referencia:
-        'Burbano Ruiz, J. E. (2011). Presupuestos: Un enfoque estratégico, gestión y control de recursos (4.ª ed.). McGraw-Hill Latinoamericana.',
+        'Burbano Ruiz, J. E. (2011). <em>Presupuestos: Un enfoque estratégico, gestión y control de recursos (4.ª ed.)</em>. McGraw-Hill Latinoamericana.',
       link: '',
     },
     {
       referencia:
-        'Fierro, H. (2011). Contabilidad general: fundamentos y aplicaciones. Ecoe Ediciones.',
+        'Fierro, H. (2011). <em>Contabilidad general: fundamentos y aplicaciones</em>. Ecoe Ediciones.',
       link: '',
     },
     {
       referencia:
-        'González, J. (2021). Fundamentos de contabilidad financiera. Editorial Universidad Cooperativa de Colombia.',
+        'González, J. (2021). <em>Fundamentos de contabilidad financiera</em>. Editorial Universidad Cooperativa de Colombia.',
       link: '',
     },
     {
       referencia:
-        'León García, M. (2009). Teoría contable y estados financieros. McGraw-Hill Interamericana.',
+        'León García, M. (2009). <em>Teoría contable y estados financieros</em>. McGraw-Hill Interamericana.',
       link: '',
     },
     {
       referencia:
-        'Muñoz Maza, J. (2016). Contabilidad: teoría y práctica. Fondo Editorial Universidad EAFIT.',
+        'Muñoz Maza, J. (2016). <em>Contabilidad: teoría y práctica</em>. Fondo Editorial Universidad EAFIT.',
       link: '',
     },
     {
       referencia:
-        'Ortiz Anaya, A. (2018). Contabilidad financiera: una perspectiva práctica. Ediciones de la U.',
+        'Ortiz Anaya, A. (2018). <em>Contabilidad financiera: una perspectiva práctica</em>. Ediciones de la U.',
       link: '',
     },
     {
       referencia:
-        'Servicio Nacional de Aprendizaje SENA. (2023). Clasificación Nacional de Ocupaciones: Diccionario ocupacional e índice alfabético de denominaciones ocupacionales.',
+        'Servicio Nacional de Aprendizaje SENA. (2023). <em>Clasificación Nacional de Ocupaciones: Diccionario ocupacional e índice alfabético de denominaciones ocupacionales.</em>',
       link: 'https://observatorio.sena.edu.co/clasificacion/cno',
     },
     {
       referencia:
-        'Servicio Nacional de Aprendizaje (SENA). (2015). Sistema Nacional de Formación para el Trabajo.',
+        'Servicio Nacional de Aprendizaje (SENA). (2015). <em>Sistema Nacional de Formación para el Trabajo</em>.',
       link:
         'https://competencias.sena.edu.co/page?3,plantilla,productos-aprobados,O,es,0',
     },

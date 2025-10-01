@@ -19,12 +19,12 @@
       .col-lg-10
         p.mb-4(data-aos="fade-left") La siguiente figura muestra la estructura básica de una cuenta T, con sus elementos principales organizados de forma clara.
         .titulo-sexto.color-acento-contenido.offset-0(data-aos="fade-left")
-          h5 Figura 2.
+          h5 Figura 1.
           i  Etapas del ciclo contable
       .col-lg-10.desktop(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema2/img2.svg', alt=' Infografía circular titulada “Etapas del ciclo contable y su relación con las operaciones financieras”. Muestra cuatro fases numeradas: Identificación y recolección. Registro en libros. Ajustes y conciliaciones. Estados financieros. A la derecha aparecen íconos que representan operaciones financieras: compras, ventas, gastos, pagos e ingresos, indicando su vínculo con las etapas del ciclo contable.')
-      .col-10.movil(data-aos="fade-left")
+      .col-12.movil(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema2/img2_1.svg', alt=' Infografía circular titulada “Etapas del ciclo contable y su relación con las operaciones financieras”. Muestra cuatro fases numeradas: Identificación y recolección. Registro en libros. Ajustes y conciliaciones. Estados financieros. A la derecha aparecen íconos que representan operaciones financieras: compras, ventas, gastos, pagos e ingresos, indicando su vínculo con las etapas del ciclo contable.')
 
@@ -91,7 +91,7 @@
           img(src='@/assets/curso/temas/tema2/img6.png', alt='Imagen decorativa')
       .col-lg-8(data-aos="fade-right")
         p En cuanto a los #[b pagos], estos representan la salida de recursos para saldar obligaciones previamente registradas. Si la empresa paga a un proveedor #[b $ 2.000.000 mediante transferencia bancaria], el asiento sería #[b Débito a Proveedores por $ 2.000.000 y Crédito a Bancos por $ 2.000.000], reflejando la disminución del pasivo. Fierro Martínez (2011) destaca que “la correcta aplicación de los pagos permite mantener relaciones comerciales sanas y evita acumulación innecesaria de deudas” (p. 83). Este control también ayuda a planificar la liquidez y a evitar retrasos que puedan generar intereses o recargos.
-        .bloque-texto-c.color-primario.p-4.mb-4
+        .cajon.color-secundario.p-4.mb-4
           p.mb-0 Los #[b ingresos] incluyen tanto las ventas como otras entradas de recursos, como intereses o rendimientos financieros. Por ejemplo, si la empresa recibe intereses por #[b $ 500.000] en su cuenta bancaria, se registra #[b Débito a Bancos por $ 500.000 y Crédito a Ingresos Financieros por $ 500.000]. León García (2009) sostiene que “registrar los ingresos de manera diferenciada permite identificar sus fuentes y medir el impacto de cada línea de negocio en los resultados financieros” (p. 109). Con un adecuado control de las compras, ventas, gastos, pagos e ingresos, el ciclo contable mantiene la información actualizada y confiable para la toma de decisiones estratégicas.
           
     separador
@@ -110,17 +110,16 @@
       )
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
         p.mb-0 Esto implica que la calidad de los informes finales depende directamente de la rigurosidad con la que se ejecutan las fases intermedias del ciclo: si existen errores en el registro de comprobantes, omisiones en los libros principales o fallas en los ajustes, los estados financieros resultantes presentarán inconsistencias que afectarán la credibilidad de la información.
-    p.mb-4(data-aos="fade-left") El ciclo contable organiza de forma cronológica y lógica el recorrido de la información financiera, desde el registro inicial de las operaciones hasta su presentación en los informes finales. La siguiente figura ilustra cómo cada etapa se conecta entre sí, permitiendo transformar los datos diarios en estados financieros consolidados que reflejan la situación económica de la organización. 
+    p.mb-5(data-aos="fade-left") El ciclo contable organiza de forma cronológica y lógica el recorrido de la información financiera, desde el registro inicial de las operaciones hasta su presentación en los informes finales. La siguiente figura ilustra cómo cada etapa se conecta entre sí, permitiendo transformar los datos diarios en estados financieros consolidados que reflejan la situación económica de la organización. 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
-        p.mb-4 La siguiente figura muestra la estructura básica de una cuenta T, con sus elementos principales organizados de forma clara.
         .titulo-sexto.color-acento-contenido.offset-0(data-aos="fade-left")
-          h5 Figura 3.
+          h5 Figura 2.
           i  Flujo del ciclo contable hacia los informes financieros
       .col-lg-10.desktop(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema2/img8.svg', alt='Diagrama de flujo que muestra el proceso contable desde los hechos económicos y soportes, pasando por el libro diario, libro mayor y balance de comprobación, hasta la elaboración de los estados financieros e informe de gestión.')
-      .col-10.movil(data-aos="fade-left")
+      .col-12.movil(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema2/img8_1.svg', alt='Diagrama de flujo que muestra el proceso contable desde los hechos económicos y soportes, pasando por el libro diario, libro mayor y balance de comprobación, hasta la elaboración de los estados financieros e informe de gestión.')
     .row.justify-content-center.align-items-center.mb-5
