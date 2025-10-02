@@ -339,7 +339,7 @@
       .col-lg-10
         .cajon.color-primario.p-4
           .row.justify-content-center
-            .col-lg-2.col-4.mb-4.lg-mb-0
+            .col-lg-2.col-4.md-mb-4.lg-mb-0
               figure
                 img(src='@/assets/curso/temas/tema4/img34.svg', alt='Imagen decorativa')
             .col-lg-10
