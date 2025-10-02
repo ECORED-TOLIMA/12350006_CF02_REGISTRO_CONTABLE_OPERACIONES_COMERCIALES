@@ -135,7 +135,7 @@
           img(src='@/assets/curso/temas/tema1/img4.png', alt='Imagen decorativa')
     p.mb-5 Su nombre proviene de su forma, que asemeja a una gran letra “T” dividida en dos columnas. En la parte superior se escribe el código y el concepto o nombre de la cuenta, mientras que cada lado de la “T” cumple una función específica:
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
+      .col-lg-10.desktop
         ImagenInfografica.color-acento-botones.mb-5
           template(v-slot:imagen)
             figure
