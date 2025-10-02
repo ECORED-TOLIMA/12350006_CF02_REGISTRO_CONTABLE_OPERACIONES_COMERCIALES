@@ -63,7 +63,7 @@
         figure
           img(src='@/assets/curso/temas/tema4/img4.svg', alt='Imagen decorativa')
       .col-lg-8(data-aos="fade-left")
-        p El cierre contable y la elaboración de los estados financieros también cumplen una función #[b egal y fiscal], pues son exigidos por las entidades de control y constituyen la base para la presentación de declaraciones tributarias y reportes oficiales. Burbano Ruiz (2011) destaca que “el cierre contable no solo ordena la contabilidad interna, sino que prepara la empresa para cumplir con sus compromisos externos en materia de control, impuestos y auditoría” (p. 203). De esta forma, los estados financieros básicos no solo informan, sino que consolidan el resultado de todo el ciclo contable, integrando las operaciones realizadas durante el periodo.
+        p El cierre contable y la elaboración de los estados financieros también cumplen una función #[b legal y fiscal], pues son exigidos por las entidades de control y constituyen la base para la presentación de declaraciones tributarias y reportes oficiales. Burbano Ruiz (2011) destaca que “el cierre contable no solo ordena la contabilidad interna, sino que prepara la empresa para cumplir con sus compromisos externos en materia de control, impuestos y auditoría” (p. 203). De esta forma, los estados financieros básicos no solo informan, sino que consolidan el resultado de todo el ciclo contable, integrando las operaciones realizadas durante el periodo.
     
     .titulo.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
@@ -108,7 +108,7 @@
         .row.justify-content-center
           .col-lg-6.order-lg-1.order-2
             h4 Naturaleza de los estados financieros
-            p Los estados financieros nacen en la contabilidad. Son preparados para presentar informes periódicos sobre de la situación del negocio, los progresos de la administración y los resultados de un periodo. En éstos se observan los hechos registrados.
+            p Los estados financieros nacen en la contabilidad. Son preparados para presentar informes periódicos sobre la situación del negocio, los progresos de la administración y los resultados de un periodo. En éstos se observan los hechos registrados.
             p.mb-0 En los estados financieros observamos los hechos registrados (datos obtenidos de los registros contables) estructurados conforme a los principios de contabilidad, convenciones contables (procedimientos y supuestos) y juicios personales (decisiones que pueda tomar el contador).
           .col-lg-6.col-12.order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/temas/tema4/img9.png' alt="Imagen decorativa")
@@ -189,9 +189,11 @@
       .col-lg-10.desktop(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema4/img16.svg', alt='Diagrama circular titulado “Estados financieros básicos” en el centro. Alrededor, siete círculos naranjas conectados indican sus componentes clave: Estado de resultados. Estado de cambios en el patrimonio o estado de superávit. Estado de cambios en la situación financiera. Estado de flujos de efectivo. Principios de los estados financieros. Limitaciones de los estados financieros. Balance general')
+          figcaption Fuente: Sena (2025)
       .col-12.movil(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema4/img16_1.svg', alt='Diagrama circular titulado “Estados financieros básicos” en el centro. Alrededor, siete círculos naranjas conectados indican sus componentes clave: Estado de resultados. Estado de cambios en el patrimonio o estado de superávit. Estado de cambios en la situación financiera. Estado de flujos de efectivo. Principios de los estados financieros. Limitaciones de los estados financieros. Balance general')    
+          figcaption Fuente: Sena (2025)
 
     separador
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
@@ -310,7 +312,7 @@
             .col-lg-2.col-4.mb-lg-0.mb-4
               img(src='@/assets/curso/temas/tema4/img31.svg' alt="Imagen decorativa")
             .col-lg-10
-              p.mb-0 Representan el trabajo de varias partes de la empresa (la gerencia, el contador, la auditoría) con diferentes intereses. Además, suelen incluir un componente significativo de juicio personal en la valoración y presentación de determinados rubros.
+              p.mb-0 Son el resultado del trabajo de diferentes áreas de la empresa (gerencia, contador y auditoría), cada una con intereses particulares. Además, suelen incluir un componente significativo de juicio personal en la valoración y presentación de determinados rubros. 
       .col-lg-6.col-sm-10.mb-4(data-aos="fade-right")
         .tarjeta.BG03.p-4.h-100
           .row.justify-content-center.align-items-center

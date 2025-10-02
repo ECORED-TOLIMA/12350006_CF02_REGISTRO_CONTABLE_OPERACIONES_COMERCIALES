@@ -65,7 +65,7 @@
       .col-lg-8
         .cajon.color-secundario.p-4.mb-4
           p Dominar el ciclo contable permite comprender cómo cada operación registrada en los asientos contables fluye hasta consolidarse en los estados financieros finales.
-          p.mb-0 En el siguiente tema se abordará el funcionamiento de los libros contables, que constituyen el soporte formal y legal de todas las etapas del ciclo.
+          p.mb-0 En el siguiente tema se abordará el funcionamiento de los #[b libros contables], que constituyen el soporte formal y legal de todas las etapas del ciclo.
 
     separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")

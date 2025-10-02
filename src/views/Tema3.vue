@@ -244,9 +244,6 @@
                 i.lista-ul__vineta
                 p.mb-0 Cuenta Gastos de Servicios Públicos: Débito de #[b $ 500.000]
               li
-                i.lista-ul__vineta
-                p.mb-0 Cuenta Gastos de Servicios Públicos: Débito de #[b $ 500.000]
-              li
                 ul
                   li 
                     i.lista-ul__vineta
