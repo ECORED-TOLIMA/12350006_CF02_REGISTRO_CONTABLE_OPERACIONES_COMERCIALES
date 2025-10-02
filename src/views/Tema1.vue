@@ -144,6 +144,9 @@
             p Registra los valores que recibe la cuenta.
           .tarjeta.tarjeta.bgblanco2.color-acento-botones.p-3(x="72%" y="77%" numero="+")            
             p Registra los valores que entrega la cuenta.
+      .col-lg-12.movil
+        figure
+          img(src='@/assets/curso/temas/tema1/img18_1.svg', alt='Texto que describa la imagen')
     p.mb-5 Cada cuenta T puede mostrar dos aspectos principales:
 
     .row.mb-5
