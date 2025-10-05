@@ -37,7 +37,7 @@ export default {
         {
           id: 2,
           texto:
-            'El libro diario registra las transacciones en orden cronológico',
+            'El libro diario registra las transacciones en orden cronológico.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -187,7 +187,7 @@ export default {
         {
           id: 12,
           texto:
-            'El ciclo contable siempre termina con la preparación de los estados financieros',
+            'El ciclo contable siempre termina con la preparación de los estados financieros.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [

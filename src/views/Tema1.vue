@@ -54,30 +54,30 @@
                 th Naturaleza
             tbody
               tr(data-aos="fade-left")
-                td Activos
-                td Débito
-                td Crédito
-                td Deudora
+                td Activos.
+                td Débito.
+                td Crédito.
+                td Deudora.
               tr(data-aos="fade-left")
-                td Pasivos
-                td Crédito
-                td Débito
-                td Acreedora
+                td Pasivos.
+                td Crédito.
+                td Débito.
+                td Acreedora.
               tr(data-aos="fade-left")
-                td Patrimonio
-                td Crédito
-                td Débito
-                td Acreedora
+                td Patrimonio.
+                td Crédito.
+                td Débito.
+                td Acreedora.
               tr(data-aos="fade-left")
-                td Ingresos
-                td Crédito
-                td Débito
-                td Acreedora
+                td Ingresos.
+                td Crédito.
+                td Débito.
+                td Acreedora.
               tr(data-aos="fade-left")
-                td Gastos y costos
-                td Débito
-                td Crédito
-                td Deudora
+                td Gastos y costos.
+                td Débito.
+                td Crédito.
+                td Deudora.
     p(data-aos="fade-left") Este principio asegura que el sistema contable #[b permanezca en equilibrio matemático], pues la suma de todos los débitos siempre será igual a la suma de todos los créditos.
     p.mb-5(data-aos="fade-left") Así, la partida doble permite comprender de dónde provienen los recursos (créditos) y en qué se utilizan (débitos), creando un registro coherente y verificable.
 
@@ -95,7 +95,7 @@
             .col-lg-6.col-12.order-1.order-lg-2.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img1_4.png', alt='Texto que describa la imagen')
-          .row(titulo="B.	Compra de mercancías en efectivo por $ 1.000.000")
+          .row(titulo="B.	Adquisición de mobiliario a crédito por $ 5.000.000")
             .col-lg-6.order-lg-1.order-2
               p - Débito: Muebles y enseres $5.000.000 (aumenta el activo).
               p - Crédito: Proveedores $5.000.000 (aumenta el pasivo).

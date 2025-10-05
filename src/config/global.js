@@ -277,8 +277,7 @@ export default {
     {
       referencia:
         'Servicio Nacional de Aprendizaje (SENA). (2015). <em>Sistema Nacional de Formación para el Trabajo</em>.',
-      link:
-        'https://competencias.sena.edu.co/page?3,plantilla,productos-aprobados,O,es,0',
+      link: '',
     },
   ],
   creditos: [
@@ -333,13 +332,13 @@ export default {
         },
         {
           nombre: 'Diego Fernando Velasco Güiza',
-          cargo: 'Desarrollador <em>Full stack</em>',
+          cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
 
         {
           nombre: 'Veimar Celis Meléndez',
-          cargo: 'Desarrollador <em>Full stack</em>',
+          cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {

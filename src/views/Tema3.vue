@@ -78,24 +78,24 @@
           table(alt="Texto alternativo tabla")
             thead
               tr(data-aos="fade-left")
-                th Tipo de libro
-                th Descripción
-                th Contenido principal
+                th Tipo de libro.
+                th Descripción.
+                th Contenido principal.
             tbody
               tr(data-aos="fade-left")
-                td Libro diario
+                td Libro diario.
                 td Registra cronológicamente todos los asientos contables con sus débitos y créditos.
                 td Fecha, cuentas afectadas, valores, glosa, soportes.
               tr(data-aos="fade-left")
-                td Libro mayor
+                td Libro mayor.
                 td Acumula los movimientos de cada cuenta contable provenientes del diario.
                 td Movimientos por cuenta, saldos parciales y finales.
               tr(data-aos="fade-left")
-                td Balance de comprobación
+                td Balance de comprobación.
                 td Lista los saldos finales de cada cuenta para verificar que los débitos igualen a los créditos.
                 td Códigos, nombres de cuentas, saldos débitos y créditos.
               tr(data-aos="fade-left")
-                td Libros auxiliares
+                td Libros auxiliares.
                 td Detallan movimientos específicos por terceros, centros de costos u operaciones.
                 td Subcuentas, terceros, documentos, valores.
     .row.justify-content-center.align-items-center.mb-5
@@ -247,10 +247,10 @@
                 ul
                   li 
                     i.lista-ul__vineta
-                    p.mb-0 Crédito por la compra #[b ( $ 2.000.000 )]
+                    p.mb-0 Crédito por la compra #[b ($ 2.000.000)]
                   li 
                     i.lista-ul__vineta
-                    p.mb-0 Débito por la venta #[b ( $ 3.500.000 )]
+                    p.mb-0 Débito por la venta #[b ($ 3.500.000)]
                   li 
                     i.lista-ul__vineta
                     p.mb-0 #[b Saldo final positivo de $ 3.000.000]
