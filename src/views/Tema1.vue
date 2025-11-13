@@ -117,7 +117,7 @@
     .row.justify-content-center.align-items-center
       .col-lg-10
         .cajon.color-primario.p-4
-          p El método se fundamenta en que toda transacción afecta, al menos, dos cuentas: una que se debita y otra que se acredita. En operaciones simples puede intervenir un par de cuentas, mientras que en transacciones más complejas participan varias, siempre bajo la regla de que la suma de los débitos es igual a la suma de los créditos. Este principio asegura el equilibrio contable y la integridad de la información financiera. 
+          p.mb-0 El método se fundamenta en que toda transacción afecta, al menos, dos cuentas: una que se debita y otra que se acredita. En operaciones simples puede intervenir un par de cuentas, mientras que en transacciones más complejas participan varias, siempre bajo la regla de que la suma de los débitos es igual a la suma de los créditos. Este principio asegura el equilibrio contable y la integridad de la información financiera. 
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.2	Representación en cuenta T

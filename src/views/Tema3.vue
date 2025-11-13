@@ -40,7 +40,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .cajon.color-secundario.p-4.mb-4(data-aos="fade-left")
-          p En la práctica, cada operación registrada en el libro diario se traslada al libro mayor, donde se acumulan los movimientos de cada cuenta específica, permitiendo conocer su saldo actualizado. Por ejemplo, si la empresa registra la compra de suministros por #[b $ 1.500.000] y el pago de servicios públicos por #[b $ 800.000], ambos movimientos quedan primero anotados en el libro diario y luego se trasladan a las cuentas correspondientes en el libro mayor: #[b Suministros, Gastos de Servicios Públicos y Caja o Bancos]. León García (2009) resalta que “los libros contables son instrumentos de control interno y permiten analizar el comportamiento de las cuentas para la toma de decisiones financieras” (p. 112).
+          p.mb-0 En la práctica, cada operación registrada en el libro diario se traslada al libro mayor, donde se acumulan los movimientos de cada cuenta específica, permitiendo conocer su saldo actualizado. Por ejemplo, si la empresa registra la compra de suministros por #[b $ 1.500.000] y el pago de servicios públicos por #[b $ 800.000], ambos movimientos quedan primero anotados en el libro diario y luego se trasladan a las cuentas correspondientes en el libro mayor: #[b Suministros, Gastos de Servicios Públicos y Caja o Bancos]. León García (2009) resalta que “los libros contables son instrumentos de control interno y permiten analizar el comportamiento de las cuentas para la toma de decisiones financieras” (p. 112).
     p(data-aos="fade-left") El balance de comprobación complementa este proceso, ya que resume los saldos de todas las cuentas para verificar que la suma de los débitos sea igual a la suma de los créditos, manteniendo el equilibrio contable. Por ejemplo, si al cierre del mes los débitos totalizan #[b $ 12.000.000] y los créditos también #[b $ 12.000.000], se confirma que no hay errores aritméticos en los registros. Ortiz Anaya (2018) sostiene que “la correcta utilización de los libros principales no solo responde a exigencias normativas, sino que facilita el análisis financiero y la preparación de los informes contables” (p. 56). De esta forma, los libros principales son la base para consolidar la información y dar paso a los estados financieros básicos.
     
     separador
@@ -321,9 +321,9 @@
     p(data-aos="fade-left") Las #[b conciliaciones contables] son procesos de verificación que permiten comparar los registros internos de la empresa con información externa para garantizar su exactitud. La más común es la #[b conciliación bancaria], donde se revisan los saldos del libro contable de bancos y se contrastan con el extracto emitido por la entidad financiera. Si, por ejemplo, el libro contable refleja un saldo de #[b $ 10.000.000], pero el banco reporta #[b $ 9.500.000], se deben identificar las diferencias, como cheques en tránsito o consignaciones no registradas. 
     p.mb-4(data-aos="fade-left") Fierro Martínez (2011) señala que “la conciliación es esencial para detectar errores, omisiones o movimientos no contabilizados que afecten la confiabilidad de la información financiera” (p. 120).
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5.lg-mb-0.mb-4(data-aos="fade-left")
-        .cajon.color-secundario.p-4
+    .row.justify-content-center.mb-5
+      .col-lg-5.mb-lg-0.mb-4(data-aos="fade-left")
+        .cajon.color-secundario.p-4.h-100
           p.mb-0 Por su parte, la #[b revisión cruzada de registros contables] consiste en comprobar que las operaciones se encuentren correctamente registradas en todos los libros y soportes correspondientes. 
       .col-lg-7(data-aos="fade-left")
         .tarjeta.color-primario.p-4.h-100

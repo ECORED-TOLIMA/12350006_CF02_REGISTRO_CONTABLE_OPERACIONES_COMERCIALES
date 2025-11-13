@@ -62,9 +62,13 @@
 
 .banner-principal
   .container.tarjeta
-    background-image: url("../assets/curso/portada/fondo-banner-principal.png")
+    background-image: url("../assets/curso/portada/fondo-banner-principal.svg")
     background-size: cover
     background-position: center
+    @media (max-width: $bp-max-md)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-md.svg")
+    @media (max-width: $bp-max-xs)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-sm.svg")
   
 .txt--green
   color: #39A900 !important
